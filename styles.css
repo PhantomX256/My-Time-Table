@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("./fonts/CaviarDreams.ttf");
+}
+
+@font-face {
+    font-family: "Unispace";
+    src: url("./fonts/Unispace.otf");
+}
+
+@font-face {
+    font-family: "Cocogoose";
+    src: url("./fonts/Cocogoose.ttf");
+}
+
+@font-face {
+    font-family: "Cheese Burger";
+    src: url("./fonts/Cheese\ Burger.otf");
+}
+
+.table-head {
+    font-family: "Cocogoose";
+}
+
+.time {
+    font-family: "Caviar Dreams";
+}
+
+.hour {
+    font-family: "Cheese Burger";
+}
+
+h1 {
+    font-family: "Cocogoose";
+}
+
+.subject {
+    font-family: "Cocogoose";
+}

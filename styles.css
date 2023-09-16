@@ -37,3 +37,17 @@ h1 {
 .subject {
     font-family: "Cocogoose";
 }
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.selected {
+    animation: transitionIn 1s;
+}

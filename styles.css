@@ -18,6 +18,11 @@
     src: url("./fonts/Cheese\ Burger.otf");
 }
 
+@font-face {
+    font-family: "Geosans";
+    src: url("./fonts/GeosansLight.ttf");
+}
+
 .table-head {
     font-family: "Cocogoose";
 }
@@ -50,4 +55,8 @@ h1 {
 
 .selected {
     animation: transitionIn 1s;
+}
+
+footer {
+    font-family: "Geosans";
 }

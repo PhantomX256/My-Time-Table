@@ -6,105 +6,107 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="icon" href="./images/schedule.png" type="image/x-icon" />
         <link rel="stylesheet" href="./styles.css" />
-        <meta name="viewport" content="width=1024">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     </head>
     <body class="bg-[#331D2C]">
-        <div class="text-center m-20">
-            <h1 class="text-[#EFE1D1] text-5xl">TIME TABLE</h1>
+        <div class="text-center m-10 max-md:m-10 max-md:mb-[7px]">
+            <h1 class="text-[#EFE1D1] text-5xl max-md:text-3xl">TIME TABLE</h1>
         </div>
-        <div class="grid grid-cols-5 grid-rows-1 gap-4 mx-20">
-            <button id="1" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow shadow-[#EFE1D1] shadow-md text-[#EFE1D1] hover:shadow-[#A78295] shadow-md">Day Order 1</button>
-            <button id="2" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow hover:shadow-[#A78295] shadow-md ">Day Order 2</button>
-            <button id="3" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow hover:shadow-[#A78295] shadow-md">Day Order 3</button>
-            <button id="4" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow hover:shadow-[#A78295] shadow-md">Day Order 4</button>
-            <button id="5" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow hover:shadow-[#A78295] shadow-md">Day Order 5</button>
+        <div class="text-center text-xl mx-20 my-3 border-[#EFE1D1] time border-b-2 pb-2 text-[#EFE1D1] max-md:mx-10 max-md:text-sm">Day Orders</div>
+        <div class="grid grid-cols-5 grid-rows-1 gap-4 mx-20 max-md:mx-10 max-md:gap-3">
+            <button id="1" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow shadow-[#EFE1D1] shadow-md text-[#EFE1D1] hover:shadow-[#A78295] hover:shadow-md max-md:text-sm max-md:py-3">1</button>
+            <button id="2" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow hover:shadow-[#A78295] hover:shadow-md max-md:text-sm max-md:py-3">2</button>
+            <button id="3" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow hover:shadow-[#A78295] hover:shadow-md max-md:text-sm max-md:py-3">3</button>
+            <button id="4" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow hover:shadow-[#A78295] hover:shadow-md max-md:text-sm max-md:py-3">4</button>
+            <button id="5" class="bg-[#3F2E3E] py-5 text-center rounded-xl text-[#A78295] text-xl hour transition-shadow hover:shadow-[#A78295] hover:shadow-md max-md:text-sm max-md:py-3">5</button>
         </div>
-        <div class="selected tabs flex flex-col gap-6 bg-[#3F2E3E] mx-[200px] my-10 rounded-3xl text-center p-8 text-[#EFE1D1]">
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] text-center">
-                <span class="subject block text-lg">Professional Ethics (Online)</span>
-                <span class="time">8:50 - 9:40</span>
+        <div class="selected tabs flex flex-col gap-6 bg-[#3F2E3E] mx-20 my-10 rounded-3xl text-center p-8 text-[#EFE1D1] max-md:mx-10 max-md:my-5 max-md:p-4 max-md:gap-4">
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Professional Ethics (Online)</span>
+                <span class="time max-md:text-[15px]">8:50 - 9:40</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Transforms and Boundary Value Problems</span>
-                <span class="time">12:30 - 14:15</span>
+       <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Transforms and Boundary Value Problems</span>
+                <span class="time max-md:text-[15px]">12:30 - 14:15</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Operating Systems</span>
-                <span class="time">14:20 - 16:00</span>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Operating Systems</span>
+                <span class="time max-md:text-[15px]">14:20 - 16:00</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Design Thinking and Methodology</span>
-                <span class="time">16:00 - 16:50</span>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Design Thinking and Methodology</span>
+                <span class="time max-md:text-[15px]">16:00 - 16:50</span>
             </div>            
         </div>
-        <div class="hidden tabs flex flex-col gap-6 bg-[#3F2E3E] mx-[200px] my-10 rounded-3xl text-center p-8 text-[#EFE1D1]">
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Data Structures and Algorithms</span>
-                <span class="time">8:00 - 9:40</span>
+        <div class="hidden tabs flex flex-col gap-6 bg-[#3F2E3E] mx-20 my-10 rounded-3xl text-center p-8 text-[#EFE1D1] max-md:mx-10 max-md:my-5 max-md:p-4 max-md:gap-4">
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Data Structures and Algorithms</span>
+                <span class="time max-md:text-[15px]">8:00 - 9:40</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Design Thinking and Methodology</span>
-                <span class="time">9:45 - 11:30</span>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Design Thinking and Methodology</span>
+                <span class="time max-md:text-[15px]">9:45 - 11:30</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Transforms and Boundary Value Problems</span>
-                <span class="time">11:35 - 12:25</span>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Transforms and Boundary Value Problems</span>
+                <span class="time max-md:text-[15px]">11:35 - 12:25</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Data Structures and Algorithms (Lab)</span>
-                <span class="time">13:25 - 15:10</span>
-            </div>
-        </div>
-        <div class="hidden tabs flex flex-col gap-6 bg-[#3F2E3E] mx-[200px] my-10 rounded-3xl text-center p-8 text-[#EFE1D1]">
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Operating Systems (Lab)</span>
-                <span class="time">8:00 - 9:40</span>
-            </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Computer Organization and Architecture</span>
-                <span class="time">12:30 - 14:15</span>
-            </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Transforms and Boundary Value Problems</span>
-                <span class="time">14:20 - 15:10</span>
-            </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Advanced Programming Practice</span>
-                <span class="time">15:10 - 16:00</span>
-            </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Data Structures and Algorithms</span>
-                <span class="time">16:00 - 16:50</span>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Data Structures and Algorithms (Lab)</span>
+                <span class="time max-md:text-[15px]">13:25 - 15:10</span>
             </div>
         </div>
-        <div class="hidden tabs flex flex-col gap-6 bg-[#3F2E3E] mx-[200px] my-10 rounded-3xl text-center p-8 text-[#EFE1D1]">
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Advanced Programming Practice</span>
-                <span class="time">8:00 - 9:40</span>
+        <div class="hidden tabs flex flex-col gap-6 bg-[#3F2E3E] mx-20 my-10 rounded-3xl text-center p-8 text-[#EFE1D1] max-md:mx-10 max-md:my-5 max-md:p-4 max-md:gap-4">
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Operating Systems (Lab)</span>
+                <span class="time max-md:text-[15px]">8:00 - 9:40</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Data Structures and Algorithms</span>
-                <span class="time">9:45 - 10:35</span>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Computer Organization and Architecture</span>
+                <span class="time max-md:text-[15px]">12:30 - 14:15</span>
+            </div>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Transforms and Boundary Value Problems</span>
+                <span class="time max-md:text-[15px]">14:20 - 15:10</span>
+            </div>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Advanced Programming Practice</span>
+                <span class="time max-md:text-[15px]">15:10 - 16:00</span>
+            </div>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Data Structures and Algorithms</span>
+                <span class="time max-md:text-[15px]">16:00 - 16:50</span>
             </div>
         </div>
-        <div class="hidden tabs flex flex-col gap-6 bg-[#3F2E3E] mx-[200px] my-10 rounded-3xl text-center p-8 text-[#EFE1D1]">
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Verbal Reasoning (Online)</span>
-                <span class="time">8:00 - 9:40</span>
+        <div class="hidden tabs flex flex-col gap-6 bg-[#3F2E3E] mx-20 my-10 rounded-3xl text-center p-8 text-[#EFE1D1] max-md:mx-10 max-md:my-5 max-md:p-4 max-md:gap-4">
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Advanced Programming Practice</span>
+                <span class="time max-md:text-[15px]">8:00 - 9:40</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Computer Organization and Architecture</span>
-                <span class="time">14:20 - 15:10</span>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Data Structures and Algorithms</span>
+                <span class="time max-md:text-[15px]">9:45 - 10:35</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Operating Systems</span>
-                <span class="time">15:10 - 16:00</span>
+        </div>
+        <div class="hidden tabs flex flex-col gap-6 bg-[#3F2E3E] mx-20 my-10 rounded-3xl text-center p-8 text-[#EFE1D1] max-md:mx-10 max-md:my-5 max-md:p-4 max-md:gap-4">
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Verbal Reasoning (Online)</span>
+                <span class="time max-md:text-[15px]">8:00 - 9:40</span>
             </div>
-            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02]">
-                <span class="subject block text-lg">Advanced Programming Practice</span>
-                <span class="time">16:00 - 16:50</span>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Computer Organization and Architecture</span>
+                <span class="time max-md:text-[15px]">14:20 - 15:10</span>
+            </div>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Operating Systems</span>
+                <span class="time max-md:text-[15px]">15:10 - 16:00</span>
+            </div>
+            <div class="bg-[#A78295] rounded-xl p-4 shadow-[#331D2C] shadow-md transition-all hover:scale-[1.02] max-md:hover:scale-[1.05] text-center max-md:p-2">
+                <span class="subject block text-lg max-md:text-[17px]">Advanced Programming Practice</span>
+                <span class="time max-md:text-[15px]">16:00 - 16:50</span>
             </div>
         </div>
         <script src="./index.js"></script>
+        <footer class="text-center text-[#EFE1D1] mb-10">Made by Ved Verma</footer>
     </body>
 </html>

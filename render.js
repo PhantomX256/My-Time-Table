@@ -1,4 +1,4 @@
-import * as dayOrders from "./data.js";
+import { dayOrders } from "./data.js";
 
 // Function to create a sub-div for each lecture
 function createLectureDiv(lecture) {
@@ -23,6 +23,8 @@ function createLectureDiv(lecture) {
 
     return $lectureDiv;
 }
+
+console.log(dayOrders);
 
 // Iterate over each dayOrder in the dayOrders object
 Object.keys(dayOrders).forEach((dayOrderKey, index) => {

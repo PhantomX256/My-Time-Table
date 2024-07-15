@@ -1,5 +1,5 @@
 // Contains the lectures in day order one
-export const dayOrderOne = [
+const dayOrderOne = [
         {
                 title: 'Computer Networks',  // 1st Lecture
                 time: '12:30 - 14:15'
@@ -15,7 +15,7 @@ export const dayOrderOne = [
 ];
 
 // Contains lectures in day order two
-export const dayOrderTwo = [
+const dayOrderTwo = [
         {
                 title: 'Professional Elective',  // 1st Lecture
                 time: '8:00 - 9:40'
@@ -31,7 +31,7 @@ export const dayOrderTwo = [
 ];
 
 // Contains lectures in day order three
-export const dayOrderThree = [
+const dayOrderThree = [
         {
                 title: 'Discrete Mathematics',  // 1st Lecture
                 time: '12:30 - 14:15'
@@ -47,7 +47,7 @@ export const dayOrderThree = [
 ];
 
 // Contains lectures in day order four
-export const dayOrderFour = [
+const dayOrderFour = [
         {
                 title: 'Formal Language and Automata',  // 1st Lecture
                 time: '8:00 - 9:40'
@@ -63,7 +63,7 @@ export const dayOrderFour = [
 ];
 
 // Contains lectures in day order four
-export const dayOrderFive = [
+const dayOrderFive = [
         {
                 title: 'Discrete Mathematics',  // 1st Lecture
                 time: '14:20 - 15:10'
@@ -77,3 +77,5 @@ export const dayOrderFive = [
                 time: '16:00 - 16:50'
         }
 ];
+
+export const dayOrders = { dayOrderOne, dayOrderTwo, dayOrderThree, dayOrderFour, dayOrderFive };

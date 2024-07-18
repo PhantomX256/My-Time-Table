@@ -1,6 +1,10 @@
 // Contains the lectures in day order one
 const dayOrderOne = [
         {
+                title: 'Computer Networks (Lab) [Batch I]',
+                time: '9:45 - 11:30'
+        },
+        {
                 title: 'Computer Networks',  // 1st Lecture
                 time: '12:30 - 14:15'
         },
@@ -10,7 +14,7 @@ const dayOrderOne = [
         },
         {
                 title: 'Open Elective',  // 3rd Lecture
-                time: '16:00 - 17:00'
+                time: '16:00 - 16:50'
         }
 ];
 
@@ -27,6 +31,10 @@ const dayOrderTwo = [
         {
                 title: 'Computer Networks',  // 3rd Lecture
                 time: '11:35 - 12:25'
+        },
+        {
+                title: 'Indian Art Form',  // 4th Lecture
+                time: '16:50 - 18:10'
         }
 ];
 
@@ -59,6 +67,11 @@ const dayOrderFour = [
         {
                 title: 'Discrete Mathematics',  // 3rd Lecture
                 time: '11:35 - 12:25'
+        },
+        {
+                title: 'Computer Networks (Lab) [Batch II]',  // 4th Lecture
+                time: '15:10 - 16:50'
+
         }
 ];
 

@@ -50,6 +50,10 @@ const dayOrderThree = [
         },
         {
                 title: 'Formal Language and Automata',  // 3rd Lecture
+                time: '15:10 - 16:00'
+        },
+        {
+                title: 'Professional Elective',
                 time: '16:00 - 16:50'
         }
 ];
@@ -61,7 +65,7 @@ const dayOrderFour = [
                 time: '8:00 - 9:40'
         },
         {
-                title: 'Cloud Native AI Deployment',  // 2nd Lecture
+                title: 'Professional Elective',  // 2nd Lecture
                 time: '9:45 - 10:35'
         },
         {
